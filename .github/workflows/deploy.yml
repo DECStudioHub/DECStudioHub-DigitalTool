@@ -34,7 +34,9 @@ jobs:
         run: npm ci || npm install
 
       - name: Build Vite application
-        run: npm run build
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
