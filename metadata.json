@@ -1,0 +1,6 @@
+{
+  "name": "DECStudioHub — Your Everyday Digital Toolbox",
+  "description": "A modern, responsive digital toolbox featuring IT tools, financial and math calculators, motorcycle utilities, solar and electrical tools, unit converters, and client-side image utilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
