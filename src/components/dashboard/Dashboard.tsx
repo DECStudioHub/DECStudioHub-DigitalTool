@@ -49,6 +49,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
             High-precision client-side calculators, network diagnostics, solar power configuration, household electricity planning, motorcycle trip trackers, and private in-browser image studio. Zero ads, zero tracking, instant execution.
           </p>
 
+          {/* Creator Disclaimer / Note */}
+          <div className="p-3.5 sm:p-4 rounded-2xl bg-blue-950/40 border border-blue-500/25 backdrop-blur-xs flex items-start gap-3 shadow-inner">
+            <Sparkles className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
+            <p className="text-xs sm:text-sm text-blue-100/90 leading-relaxed italic">
+              <span className="font-bold text-blue-300 not-italic">Disclaimer:</span> I’m not a programmer. I’m a human with a bold imagination—and AI is the tool that brings my ideas to life.
+            </p>
+          </div>
+
           {/* Quick Search Launch Bar */}
           <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
             <button

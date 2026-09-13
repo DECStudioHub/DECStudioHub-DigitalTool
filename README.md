@@ -13,6 +13,8 @@
 
 Everything executes **100% client-side** in your browser — zero tracking, zero server latency, and complete privacy for all calculations.
 
+> 💡 *Disclaimer: I’m not a programmer. I’m a human with a bold imagination—and AI is the tool that brings my ideas to life.*
+
 ---
 
 ## 🚀 Key Modules & Tools
