@@ -160,7 +160,19 @@ export const ToolHost: React.FC<ToolHostProps> = ({ tool, onBack, onSelectCatego
       case 'image-resize':
       case 'image-compress':
       case 'image-convert':
-        return <ImageTools />;
+      case 'image-resolution-enhancer':
+      case 'image-crop':
+      case 'image-rotate':
+      case 'image-adjustments':
+      case 'image-watermark':
+      case 'image-background':
+      case 'image-info':
+      case 'image-metadata-cleaner':
+      case 'image-merge':
+      case 'image-to-pdf':
+      case 'image-screenshot-optimizer':
+      case 'image-dpi-calculator':
+        return <ImageTools activeToolId={tool.id} />;
 
       // Donation & Feedback
       case 'buy-me-a-coffee':
